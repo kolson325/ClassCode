@@ -1,0 +1,16 @@
+a)http://localhost/Week1KolsonDeSocio/index.html
+b)http://localhost/Week1KolsonDeSocio/display_results.php?user_id=kolson&salary_amount=50&hours_per_week=40&days_per_week=4&holidays_per_year=4&vacation_days_per_year=4
+c)http://localhost/Week1KolsonDeSocio/display_results.php
+d)http://localhost/Week1KolsonDeSocio/display_results.php?user_id=kolson&salary_amount=30&hours_per_week=5&days_per_week=5&holidays_per_year=5&vacation_days_per_year=5
+e)Since it is a post, you change how the form in index.html sends data from "GET" to "POST," the web address you see in your browser won't have any extra information in it. You would need to change all of display_results.php to post
+f)URL using GET was much longer and included many parameters
+g)To see what parameters are being used in the transfer between html to php files
+h)done
+i)String
+j)It ensures that the input data is in the expected format, preventing errors, and avoiding FILTER_VALIDATE and treating all input as strings can lead to data format issues and errors in the application.
+k)done
+l)var_dump is very useful in order to show information about data types and the values given to a variable after php code is executed.
+m)FILTER_VALIDATE_FLOAT assures that the input will be a float. If there is not validation, the numeric value will be interpretted as a string
+n)FILTER_VALIDATE_BOOLEAN, FILTER_VALIDATE_DOMAIN, FILTER_VALIDATE_EMAIL, FILTER_VALIDATE_IP, FILTER_VALIDATE_MAC, FILTER_VALIDATE_REGEXP, FILTER_VALIDATE_URL
+o)It is when a program divides by zero then throws an error, it is important o watch for it because if you divide by zero the answer is undefined. This could cause issues in all calculations after dividing by zero and getting undefined.
+p)Include will show the page by copying it and displaying it on display_results. If it were to give the index.php, it would have changed the URL.
